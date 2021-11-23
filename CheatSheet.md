@@ -46,3 +46,17 @@ Format for a Python3 web server `sudo python3 -m http.server 80`
 
 Standard format for msfvenom `msfvenom -p <PAYLOAD> <OPTIONS>`
 
+## Nessus (Vulnerability scanner)
+
+### Basic Commands
+
+Start Service `sudo /bin/systemctl start nessusd.service`
+
+### Navigation & Scanning
+
+- Which hosts are alive: host discovery
+- Scan suitable for any host: Basic network scan
+- Authenticate to hosts and enumerate missing update: Credentialed Patch Audit
+- Scan for web applications: Web applications tests
+
+
