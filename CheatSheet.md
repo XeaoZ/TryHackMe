@@ -31,14 +31,15 @@
 
 `nc <target-ip> <chosen-port>`
 
-
 ### Netcat Shell Stabilisation
 
 - Uses Python to spawn a better featured bash shell. `python -c 'import pty;pty.spawn("/bin/bash")'` 
 - Give commands such as clear `export TERM=xterm` 
 - Background the shell using Ctrl + Z. Back in own terminal we use `stty raw -echo; fg`. This does two things: first, it turns off our own terminal echo (which gives us access to tab autocompletes, the arrow keys, and Ctrl + C to kill processes). It then foregrounds the shell, thus completing the process.
 
-## Python 3 Web Server (-python or -python3)
+## Python3
+
+### Web Server (-python or -python3)
 
 Format for a Python3 web server `sudo python3 -m http.server 80`
 
