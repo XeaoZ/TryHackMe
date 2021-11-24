@@ -21,9 +21,7 @@
 - `-oN` Normal format
 - `-oG` Grepable format
 
-## Netcat
-
-### Reverse Shells
+## Reverse Shells
 
 `nc -lvnp <port-number>`
 
