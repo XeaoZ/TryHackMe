@@ -4,6 +4,7 @@
 
 - [Sec Lists](https://github.com/danielmiessler/SecLists)
 - [Identify Hash Types](https://hashes.com/en/tools/hash_identifier)
+- [Brute Force Cheatsheet](https://book.hacktricks.xyz/brute-force)
 
 ## NMAP
 
