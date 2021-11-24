@@ -60,4 +60,27 @@ Start Service `sudo /bin/systemctl start nessusd.service`
 - Authenticate to hosts and enumerate missing update: Credentialed Patch Audit
 - Scan for web applications: Web applications tests
 
+## Hydra (-Hydra)
+
+### Hydra Commands
+
+- For FTP: `hydra -l user -P passlist.txt ftp://MACHINE_IP`
+- For SSH: `hydra -l <username> -P <full path to pass> MACHINE_IP -t 4 ssh`
+  - `-l` Username
+  - `-P` Use a list of passwords
+  - `-t` Number of threads to use
+ -  Web Forum: `hydra -l <username> -P <wordlist> MACHINE_IP http-post-form "/LOGIN_URL(Example /login):username=^USER^&password=^PASS^:F=incorrect" -V`
+    - `-l` Sinlge Usnermae
+    - `-P` Password List
+    - `http-post-form` Type of form (post)
+    - `/login url` 
+    - `:username` The form field where the username is entered
+    - `^USER^` Tell Hydra to use the username    
+    - `:password` The form field where the password is entered
+    - `^PASSWORD^` Tell Hydra to use the password
+    - `-V` Verborse output for every attempt 
+  - `ssh username@IP`  SSH Login 
+
+
+
 
