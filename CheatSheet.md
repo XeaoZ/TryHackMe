@@ -15,6 +15,7 @@
 - `-Su` UDP Scans (-sU)
 - `-O`  Operating System
 - `-Sv` Services that are running.
+- `-p-` Scan all ports
 
 ### Output Types
 
